@@ -3,3 +3,74 @@
     opacity: 0.6;
     color: aquamarine;
 }
+
+
+/* 
+Animation For Loaders */
+.animate-percentage_90{
+    animation-name: loadingBar90;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in ;
+}
+.animate-percentage_100{
+    animation-name: loadingBar100;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in ;
+}
+.animate-percentage_80{
+    animation-name: loadingBar80;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in ;
+}
+.animate-percentage_70{
+    animation-name: loadingBar70;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in ;
+}
+.animate-percentage_50{
+    animation-name: loadingBar50;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in ;
+}
+
+@keyframes loadingBar90{
+    from   {width: 0px;}
+    to {width: 90%;}
+}
+@keyframes loadingBar100{
+    from   {width: 0px;}
+    to {width: 100%;}
+}
+@keyframes loadingBar80{
+    from   {width: 0px;}
+    to {width: 80%;}
+}
+@keyframes loadingBar70{
+    from   {width: 0px;}
+    to {width: 70%;}
+}
+@keyframes loadingBar50{
+    from   {width: 0px;}
+    to {width: 50%;}
+}
+
+
+/* Animation for Headers */
+
+.animate-header{
+    animation-name: rightToLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function:linear ;
+    
+}
+
+@keyframes rightToLeft{
+    from   {margin-left: 300px;}
+    to {margin-left: 0px;}
+}
